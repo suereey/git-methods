@@ -8,3 +8,5 @@ git reset --soft HEAD~4
 git commit -m "update on ---"
 git push --force origin main
 ```
+
+Found this method at: https://stackoverflow.com/questions/5667884/how-to-squash-commits-in-git-after-they-have-been-pushed
