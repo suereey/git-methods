@@ -1,4 +1,5 @@
-# Reset a branch in forked repo to be the same as the original repo
+# Reset 
+Reset a branch in forked repo to be the same as the original repo
 
 ## Example 1. 
 I have made  modification in forked main repo. I want to remove all the changes.

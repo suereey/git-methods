@@ -1,8 +1,9 @@
 # Git Stash
+
 ## When to use git stash
 Has made changes on the ```main``` branch but haven't committed them yet.
 
-Want to transfer all those changes to a new branch without committing them to the main branch.
+Want to move all those changes to a new branch without committing them to the main branch.
 
 ## How to use git stash
 Follow below steps:
@@ -39,3 +40,7 @@ Note:
 Now you have a new branch, "new-branch," that contains all the changes you made on the main branch without committing them. The main branch remains in its previous state. You can continue working on the new branch and make commits as needed.
 
 Remember that if you want to bring the changes from the new branch back to the main branch, you will need to merge or rebase the new branch into the main branch once you are satisfied with the changes.
+
+## Stash vs Cherry-pick
+- Stash is used to temporarily save changes you're working on so that you can switch to a different branch or commit without committing those changes.
+- Cherry-pick is used to select a specific commit and apply its changes to a different branch, usually when you don't want to merge the entire branch.
